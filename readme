@@ -3,5 +3,5 @@ git init
 git add README.md 
 git commit -m "first commit" 
 git branch -M main 
-git remote add origin https://github.com/mauricio173/formularioTelaDeLogin.git
+git remote add origin https://github.com/mauricio173/formulario-e-tela-de-login
  git push - u origem principal
