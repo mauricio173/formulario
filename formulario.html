@@ -110,20 +110,20 @@
                 <legend><b>Cadastro de Usuário</b></legend>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" autocomplete="off" required>
+                    <input type="text" name="nome" id="nome" class="inputUser" autocomplete="off" maxlength="60" required>
                     <label for="nome" class="labelInput">Nome Completo</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="text" name="email" id="email" class="inputUser" autocomplete="off" required>
+                    <input type="text" name="email" id="email" class="inputUser" autocomplete="off" maxlength="90" required>
                     <label for="email" class="labelInput">Email Principal</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" autocomplete="off" required>
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" autocomplete="off" maxlength="11" required>
                     <label for="telefone" class="labelInput">Telefone com DDD</label>
                 </div>
-                <br>               
+                <br>             
                 <p><b>Sexo:</b></p>
                 <input type="radio" id="feminino" name="genero" value="feminino" required>
                 <label for="feminino">Feminino</label>
@@ -138,18 +138,18 @@
                 <input type="date" name="data_nascimento" id="data_nascimento" required>
                 <br><br>
                 <div class="inputBox">
-                    <input type="text" name="cpf" id="cpf" class="inputUser" autocomplete="off" required>
-                    <label for="cpf" class="labelInput">CPF</label>
+                    <input type="text" name="rg" id="rg" class="inputUser" autocomplete="off" maxlength="10" required>
+                    <label for="rg" class="labelInput">RG</label>
                 </div>
                 <br><br>
                 <div class="inputBox">                        
-                    <input type="text" name="cep" id="cep" class="inputUser" autocomplete="off" required>
-                    <label for="cep" class="labelInput">CEP</label>
+                    <input type="text" name="cpf" id="cpf" class="inputUser" autocomplete="off" maxlength="11" required>
+                    <label for="cpf" class="labelInput">CPF</label>
                 </div>
                 <br><br>
                 <div class="inputBox">                
-                    <input type="text" name="endereco" id="endereco" class="inputUser" autocomplete="off" required>
-                    <label for="endereco" class="labelInput">Endereço</label>
+                    <input type="text" name="endereco" id="endereco" class="inputUser" autocomplete="off" maxlength="60" required>
+                    <label for="endereco" class="labelInput">Endereço (Rua "Tal", 300 - Bairro "De Tal")</label>
                 </div>
                 <br><br>
                 <input type="submit" name="submit" id="submit">
